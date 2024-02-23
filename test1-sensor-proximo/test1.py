@@ -1,4 +1,4 @@
-import RPi.GPOI as GPIO
+import RPi.GPIO as GPIO
 import time
 
 # Set up PIR sensor
