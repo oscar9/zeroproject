@@ -2,7 +2,7 @@ import serial
 import time
 import string
 import pynmea2
-
+# https://aprs.gids.nl/nmea/
 while True: 
     port="/dev/ttyAMA0"
     ser=serial.Serial(port,baudrate=9600,timeout=0.5)
