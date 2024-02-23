@@ -3,8 +3,8 @@ import time
 
 # Set up PIR sensor
 PIR_PIN = 14
-GPOI.setmode(GPIO.BCM)
-GPOI.setup(PIR_PIN, GPIO.IN)
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(PIR_PIN, GPIO.IN)
 
 print("TEST: Sensor 1")
 print("Init..")
